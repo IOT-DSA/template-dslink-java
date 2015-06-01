@@ -1,0 +1,6 @@
+*.swp
+.key
+.name
+.idea/
+*.iml
+nodes.json
