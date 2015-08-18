@@ -10,6 +10,8 @@ Template for Java-based DSLinks. Use it!
 4. Navigate into the extracted distribution
 5. Run `./bin/template-dslink-java -b http://localhost:8080/conn`
 
+Note: `http://localhost:8080` is the url to the DSA broker that needs to have been installed prior.
+
 ## Creating your own link
 
 1. Change the group and project name in Gradle
