@@ -4,7 +4,7 @@ Template for Java-based DSLinks. Use it!
 
 ## Building and running distributions
 
-1. Run `./gradlew distZip`
+1. Run `./gradlew build distZip`
 2. Navigate into `build/distributions`
 3. Extract the distribution tarball/zip
 4. Navigate into the extracted distribution
