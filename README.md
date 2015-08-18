@@ -5,9 +5,9 @@ Template for Java-based DSLinks. Use it!
 ## Building and running distributions
 
 1. Run `./gradlew distZip`
-2. `cd` into `build/distributions`
-3. unzip/untar the distribution
-4. `cd` into the distribution folder
+2. Navigate into `build/distributions`
+3. Extract the distribution tarball/zip
+4. Navigate into the extracted distribution
 5. Run `./bin/template-dslink-java -b http://localhost:8080/conn`
 
 ## Creating your own link
