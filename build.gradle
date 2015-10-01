@@ -16,6 +16,13 @@ dependencies {
     compile 'org.iot-dsa:dslink:0.10.0'
 }
 
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}
+
 run {
     args System.getProperty("exec.args", "").split()
     workingDir project.buildDir
