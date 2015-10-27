@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.iot-dsa:dslink:0.10.2'
+    compile 'org.iot-dsa:dslink:0.12.0'
 }
 
 tasks.withType(FindBugs) {
