@@ -27,6 +27,7 @@ public class Main extends DSLinkHandler {
     public void onResponderInitialized(DSLink link) {
         Node superRoot = link.getNodeManager().getSuperRoot();
         NodeBuilder builder = superRoot.createChild("example");
+        builder.setSerializable(false);
         builder.setDisplayName("Example");
         builder.setValueType(ValueType.STRING);
         builder.setValue(new Value("Hello world"));
